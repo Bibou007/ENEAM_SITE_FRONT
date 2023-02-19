@@ -71,6 +71,29 @@
         }
 
     })
+    $('#actu-slide').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        dots:true,
+        smartSpeed: 1000,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:false,
+        responsive:{
+            0:{
+                items: 2,
+                nav: false,
+            },
+            768:{
+                items: 2,
+            },
+            1140:{
+                items: 3,
+            }
+        }
+
+    })
 
   });
   
